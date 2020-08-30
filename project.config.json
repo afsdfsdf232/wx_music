@@ -2,30 +2,38 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
-		"scopeDataCheck": false,
-		"coverView": true,
+		"urlCheck": false,
 		"es6": true,
+		"enhance": true,
 		"postcss": true,
-		"compileHotReLoad": false,
 		"preloadBackgroundData": false,
 		"minified": true,
-		"autoAudits": false,
 		"newFeature": true,
-		"uglifyFileName": false,
-		"uploadWithSourceMap": true,
-		"useIsolateContext": true,
+		"coverView": true,
 		"nodeModules": false,
-		"enhance": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
 		"useCompilerModule": false,
-		"userConfirmedUseCompilerModuleSwitch": false,
-		"showShadowRootInWxmlPanel": true
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"appid": "wxf10cf627e7e53833",
 	"projectname": "music",
 	"libVersion": "2.8.1",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -42,13 +50,46 @@
 		"game": {
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/blog/blog",
+					"pathName": "pages/blog/blog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/blogedit/blogedit",
+					"pathName": "pages/blogedit/blogedit",
+					"query": "avatarUrl=https://thirdwx.qlogo.cn/mmopen/vi_32/PEcLVSe8PZVFQKyZSF3EpFaQoSVP2IoCuFIZC1sPYCv1x57Eyznf4eMORhZyFKAWdQ2yXUUzLoP3XdlFNvPa4w/132& nickName= undefined",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/blogcomment/blogcomment",
+					"pathName": "pages/blogcomment/blogcomment",
+					"query": "id= ac5f38825f41eaf600269ff93b7372bf",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/playlist/playlist",
+					"pathName": "pages/playlist/playlist",
+					"query": "id= ac5f38825f41eaf600269ff93b7372bf",
+					"scene": null
 				}
 			]
 		}

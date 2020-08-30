@@ -1,12 +1,10 @@
-# 云开发 quickstart
+## 使用云开发，开发一款属于自己的音乐播放器小程序
 
-这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：
+## 小程序中背景图片不能使用网络图片，可以使用本地图片或者 base64的图片
 
-- 数据库：一个既可在小程序前端操作，也能在云函数中读写的 JSON 文档型数据库
-- 文件存储：在小程序前端直接上传/下载云端文件，在云开发控制台可视化管理
-- 云函数：在云端运行的代码，微信私有协议天然鉴权，开发者只需编写业务逻辑代码
+## *this 指向当前元素本身， wx:key 中使用
 
-## 参考文档
-
-- [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-
+## 子组件向父级传值
+    子组件调用   this.triggerEvent('handelevent',data)
+    父级接收    组件标签 bind:handelevent="parentEvent"
+## 原生组件绑定事件不能加冒号 ":" 例如：textarea输入框 bindinput 

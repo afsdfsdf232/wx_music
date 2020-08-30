@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "x-blogcard":"/components/blogcard/blogcard",
+    "x-blogctrl":"/components/blogctrl/blogctrl"
+  },
+  "navigationBarTitleText": "发现"
+}

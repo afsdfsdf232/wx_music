@@ -1,0 +1,7 @@
+<view wx:if="{{musiclist.length>0}}">
+	<x-musiclist musiclist="{{musiclist}}" />
+</view>
+
+<view wx:else class="no-msg">
+	<text>暂无记录...</text>
+</view>
